@@ -17,4 +17,7 @@ class App < Sinatra::Base
   get "/goodbye/:name" do
     @name = params[:name]
     "Goodbye, #{@name}."
+  end
+  
+  get "/multiply/"
 end
